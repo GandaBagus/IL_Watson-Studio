@@ -8,19 +8,12 @@
 
 
 ## Description
-It is the year 2020 and students are experiencing a new way of life when it comes to getting an education. Students are realizing they need to adopt a proactive and self-service mindset in to fulfill their academic needs. An intelligent chatbot that helps students find and access learning content supports this new self-service model. This pattern shows users how to build a self-service chatbot not only for education, but also for any other industries where users need to find information quickly and easily.
+In the era of ever-evolving digital transformation, the interaction between users and websites has become important and has become one of the key aspects of providing a satisfying experience. To increase interaction and provide more efficient service. Many companies and organizations have adopted chatbot technology as an innovative solution.
+Online New Student Admission (PPDB), as a platform used by students who wish to enroll in their  school, provides information about new student registration and online registration services. To improve convenience in the process of registering new students, a new feature was created, namely a chatbot that uses services from IBM Cloud, namely the Watson Assistant. Watson Assistant is a service from IBM powered by powerful artificial intelligence, which enables the building of intelligent and responsive chatbots. By utilizing Watson Assistant as a chatbot, it is hoped that the registration process and the information needed by students can be fulfilled.
+The SiPens chatbot created using the Watson Assistant service has the ability to naturally understand user questions and requests. Using natural language processing and machine learning, these chatbots can provide accurate and relevant responses.
 
-Using Watson Assistant, this pattern defines a dialog that a student and a course provider might experience as a student searches for learning content. Students can input grade-level and academic topics question, and the chatbot responds with course recommendations and learning content links. The conversation responses are further enhanced by using Watson Discovery and the Watson Assistant Search skill. Natural Language Understanding (NLU) is introduced in this pattern to complement Watson Discovery's accuracy by extracting custom fields for entities, concepts, and categories.
 
-### What is an Assistant Search Skill?
 
-An Assistant search skill is a mechanism that allows you to directly query a Watson Discovery collection from your Assistant dialog. A search skill is triggered when the dialog reaches a node that has a search skill enabled. The user query is then passed to the Watson Discovery collection via the search skill, and the results are returned to the dialog for display to the user. Customizing how your documents are indexed into Discovery improves the answers returned from queries and what your users experience.
-
-Click [here](https://cloud.ibm.com/docs/assistant-data?topic=assistant-data-skill-search-add) for more information about the Watson Assistant search skill.
-
-### Why Natural Language Understanding (NLU)?
-
-NLU performs text analysis to extract metadata such as concepts, entities, keywords, and other types of categories of words. Data sets are then enriched with NLU-detected entities, keywords, and concepts (for example, course names). Although Discovery provides great results, sometimes a developer finds that the results are not as relevant as they might be and that there is room for improvement. Discovery is built for "long-tail" use cases where the use case has many varied questions and results that you can't easily anticipate or optimize. Additionally, if the corpus of documents is relatively small (less than 1000), Discovery doesn't have enough information to distinguish important terms and unimportant terms. Discovery can work with a corpus this small - but it is less effective because it has less information about the relative frequency of terms in the domain. 
 
 
 ## Flow
