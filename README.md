@@ -6,6 +6,9 @@
 </p>
 <br>
 
+## Pattern
+https://developer.ibm.com/patterns/chatbot-for-student-self-service-in-education/
+
 ## Description
 In the era of ever-evolving digital transformation, the interaction between users and websites has become important and has become one of the key aspects of providing a satisfying experience. To increase interaction and provide more efficient service. Many companies and organizations have adopted chatbot technology as an innovative solution.
 Online New Student Admission (PPDB), as a platform used by students who wish to enroll in their  school, provides information about new student registration and online registration services. To improve convenience in the process of registering new students, a new feature was created, namely a chatbot that uses services from IBM Cloud, namely the Watson Assistant. Watson Assistant is a service from IBM powered by powerful artificial intelligence, which enables the building of intelligent and responsive chatbots. By utilizing Watson Assistant as a chatbot, it is hoped that the registration process and the information needed by students can be fulfilled.
@@ -19,6 +22,8 @@ The SiPens chatbot created using the Watson Assistant service has the ability to
 
 <img src="./Foto/Arsitektur.png" alt="Architecture" /> 
 
+- User sends messages to the application (running locally or on IBM Cloud).
+- The application sends the user message to IBM Watson Assistant service, and displays the ongoing chat in a web page.
 
 
 ## Included components
@@ -73,39 +78,12 @@ Create the following services:
 
 
 
-## Troubleshooting
+### Chatbot ini dibuat menggunakan 
 
-* Error: If you get an error that says you 
-      > Traceback (most recent call last):
-      > File "NLUEntityExtraction.py", line 4, in <module>
-      > import pandas as pd
-      > ImportError: No module named pandas
+* [![watson][watson]][watson]
 
-      > you need to make sure you are using the same verion of pip and python.  We recommend you use Python 3 and Pip 3
-
-* Error: Unable to list workspaces for Watson Assistant: Forbidden: Access is denied due to invalid credentials.
-
-  > This error occurs with `Deploy to IBM Cloud` button. Configure a runtime environment variable for `ASSISTANT_APIKEY` to allow automatic configuration of the default skill or configure `SKILL_ID` to use another skill.
-
-* Error: Only one free environment is allowed per organization
-
-  > To work with a free trial, a small free Discovery environment is created. If you already have a Discovery environment, this will fail. If you are not using Discovery, check for an old service thay you may want to delete. Otherwise use the .env DISCOVERY_ENVIRONMENT_ID to tell the app which environment you want it to use. A collection will be created in this environment using the default configuration.
+### Link
+[SiPenS BOT](https://gandabagus.github.io/bot/)
 
 
-# Related Links
-
-- [How to get the most out of Relevancy Training](https://developer.ibm.com/dwblog/2017/get-relevancy-training/)
-- [Improving result relevance with the API](https://cloud.ibm.com/docs/discovery?topic=discovery-improving-result-relevance-with-the-api)
-
-# Learn more
-
-* **Artificial Intelligence Code Patterns**: Enjoyed this code pattern? Check out our other [AI Code Patterns](https://developer.ibm.com/technologies/artificial-intelligence/).
-* **AI and Data Code Pattern Playlist**: Bookmark our [playlist](https://www.youtube.com/playlist?list=PLzUbsvIyrNfknNewObx5N7uGZ5FKH0Fde) with all of our code pattern videos
-* **With Watson**: Want to take your Watson app to the next level? Looking to utilize Watson Brand assets? [Join the With Watson program](https://www.ibm.com/watson/with-watson/) to leverage exclusive brand, marketing, and tech resources to amplify and accelerate your Watson embedded commercial solution.
-
-
-# License
-
-This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
-
-[Apache Software License (ASL) FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
+  [watson]: https://img.shields.io/badge/watson-assistant-blue
