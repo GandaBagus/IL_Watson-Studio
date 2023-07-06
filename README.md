@@ -1,10 +1,4 @@
-# Create a Chatbot experience to help students learning remotely to find courses and develop curriculums
-
-<br>
-<p align="center">
-  <img src="GIFs/Assistant.gif"  width=400 height="800">
-</p>
-<br>
+# IMPLEMENTASI WATSON ASSISTANT SEBAGAI CHATBOT PADA WEBSITE PENERIMAAN SISWA BARU
 
 ## Pattern
 https://developer.ibm.com/patterns/chatbot-for-student-self-service-in-education/
@@ -31,54 +25,7 @@ The SiPens chatbot created using the Watson Assistant service has the ability to
 * [IBM Watson Assistant](https://www.ibm.com/cloud/watson-assistant/): Build, test and deploy a bot or virtual agent across mobile devices, messaging platforms, or even on a physical robot.
 
 
-## Pre-requsites
-
-* [IBM Cloud Account](https://cloud.ibm.com/).
-* Basic familiarity of [IBM Cloud](https://cloud.ibm.com/), [Assistant service](https://cloud.ibm.com/docs/assistant?topic=assistant-getting-started), [Natural Language Understanding (NLU) service](https://cloud.ibm.com/docs/services/natural-language-understanding?topic=natural-language-understanding-getting-started#getting-started) and [Discovery service](https://cloud.ibm.com/docs/discovery?topic=discovery-getting-started).
-
-## Steps
-
-Follow these steps to setup and run this code pattern. The steps are described in detail below.
-
-
-1. [Create IBM Cloud services](#2-create-ibm-cloud-services)
-
-
-2. [Configure Watson Assistant and Test the Chatbot](#5-configure-watson-assistant-and-test-the-chatbot)
-
-
-## 1. Create IBM Cloud services
-
-Create the following services:
-
-* [**Watson Assistant**](https://cloud.ibm.com/catalog/services/assistant) 
-
-
-> **NOTE**: use the `Plus` offering of Watson Assistant. You have access to a 30 day trial.
-
-
-
-## 2. Configure Watson Assistant and test the Chatbot
-
-### Create assistant
-
-* Find the Assistant service in your IBM Cloud Dashboard.
-
-* Click on the service and then click on `Launch Watson Assistant`.
-
-* Go to your Assistant tab and click `create assistant`. 
-
-
-
-
-
-
-
-
-
-
-
-### Chatbot ini dibuat menggunakan 
+## Chatbot ini dibuat menggunakan 
 
 * [![watson][watson]][watson]
 
