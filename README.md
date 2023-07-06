@@ -20,7 +20,7 @@ The SiPens chatbot created using the Watson Assistant service has the ability to
 - The application sends the user message to IBM Watson Assistant service, and displays the ongoing chat in a web page.
 
 
-## Included components
+## Used components
 
 * [IBM Watson Assistant](https://www.ibm.com/cloud/watson-assistant/): Build, test and deploy a bot or virtual agent across mobile devices, messaging platforms, or even on a physical robot.
 
