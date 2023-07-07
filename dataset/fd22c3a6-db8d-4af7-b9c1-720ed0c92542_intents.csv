@@ -1,0 +1,39 @@
+prosedur,alur_pendaftaran
+alur,alur_pendaftaran
+langkah,alur_pendaftaran
+Ada berapa SD di Tanjungpinang,data_sd
+sd,data_sd
+Daftar SD,data_sd
+Jumlah SMP,data_SMP
+SMP,data_SMP
+Ada berapa SMP di Tanjungpinang?,data_SMP
+Ada berapa TK yang ada di Tanjungpinang?,data_tk
+TK,data_tk
+Daftar TK,data_tk
+TK mana saja?,data_tk
+Helo,Greeting
+Selamat Siang,Greeting
+Selamat sore,Greeting
+Selamat pagi,Greeting
+Selamat malam,Greeting
+Halo,Greeting
+Hi,Greeting
+Jadwal,jadwal_pendaftaran
+Kapan jadwal pendaftaran,jadwal_pendaftaran
+1,jadwal_pendaftaran
+Ada berapa jalur pendaftaran?,jalur_pendaftaran
+Jalur pendaftaran,jalur_pendaftaran
+jumlah,kuota_pendaftaran
+kuota,kuota_pendaftaran
+pembagian,kuota_pendaftaran
+panitia,narahubung
+contact person,narahubung
+narahubung,narahubung
+kontak,narahubung
+nomor panitia,narahubung
+Kapan pendaftaran dibuka?,Pendaftaran_buka
+Tanggal Pendaftaran dibuka?,Pendaftaran_buka
+Pendaftaran dibukan kapan?,Pendaftaran_buka
+Terima kasih,Thanks
+Makasih,Thanks
+Terimakasih,Thanks
