@@ -1,0 +1,12 @@
+jadwal_pendaftaran_1,1,1,afirmasi,SD,SMP
+jadwal_pendaftaran_2,2,2,SMP,Prestasi
+jadwal_pendaftaran_3,3,3,TK,Umum
+jadwal_pendaftaran_4,4,4,zonasi,Perpindahan
+jalur_pendaftaran_1,1,1,prestasi
+jalur_pendaftaran_2,2,2,afirmasi
+jalur_pendaftaran_3,3,3,zonasi
+jalur_pendaftaran_4,4,4,perpindahan
+sd_barat,2,2,barat,tanjungpinang barat
+sd_bestari,1,1,bukit bestari,kelurahan bukit bestari
+sd_kota,4,4,Tanjungpinang Kota,kota
+sd_timur,3,3,timur,tanjungpinang timur
