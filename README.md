@@ -24,6 +24,41 @@ The SiPens chatbot created using the Watson Assistant service has the ability to
 
 * [IBM Watson Assistant](https://www.ibm.com/cloud/watson-assistant/): Watson Assistant lets you build conversational interfaces into any application, device, or channel.
 
+## How To
+Follow these steps to setup and run this code pattern. The steps are described in detail below.
+1. [Create IBM Cloud services](#1-create-ibm-cloud-services)
+
+2. [Configure Watson Assistant and Test the Chatbot](#2-configure-watson-assistant-and-test-the-chatbot)
+
+3. [Embed Watson Assistant to Website](#3-Embed-Watson-Assistant-to-Website).
+
+## 1. Create IBM Cloud services
+
+Create the following services:
+
+* [**Watson Assistant**](https://cloud.ibm.com/catalog/services/assistant) 
+
+> **NOTE**: use the `Plus` offering of Watson Assistant. You have access to a 30 day trial.
+
+## 2. Configure Watson Assistant and test the Chatbot
+
+### Create assistant
+
+* Find the Assistant service in your IBM Cloud Dashboard.
+
+* Click on the service and then click on `Launch Watson Assistant`.
+
+* Go to your Assistant Setting tab and click `Dialog` and activate it. 
+
+* Go to your `Dialog` tab and go to `Dialog` tab and create dialog.
+
+* Go to 'Intent' tab and create your intent
+
+* Configure your dialog with put your `intent` to your dialog node.
+
+## 3. Embed Watson Assistant to Website
+* Go to `Environment` tab, then click o `Web Chat`. Click `Embed` page and copy the code the paste it to your website code.
+  
 
 
 ### Link
