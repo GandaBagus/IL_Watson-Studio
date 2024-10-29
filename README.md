@@ -8,7 +8,7 @@ In the era of ever-evolving digital transformation, the interaction between user
 Online New Student Admission (PPDB), as a platform used by students who wish to enroll in their  school, provides information about new student registration and online registration services. To improve convenience in the process of registering new students, a new feature was created, namely a chatbot that uses services from IBM Cloud, namely the Watson Assistant. Watson Assistant is a service from IBM powered by powerful artificial intelligence, which enables the building of intelligent and responsive chatbots. By utilizing Watson Assistant as a chatbot, it is hoped that the registration process and the information needed by students can be fulfilled.
 The SiPens chatbot created using the Watson Assistant service has the ability to naturally understand user questions and requests. Using natural language processing and machine learning, these chatbots can provide accurate and relevant responses.
 
-
+test
 
 
 
